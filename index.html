@@ -37,14 +37,20 @@
       alt="background-image"
       class="absolute top right-8 -z-10 w-[150px]"
     />
-    <div class="container border p-4">
+    <div class="container p-4">
       <h1 class="text-center text-2xl mb-4">Our Pricing</h1>
-      <div class="text-center text-LightGrayishBlue">Annually Monthly</div>
-      <main>
-        <div class="basic text-center border p-4 min-w-[320px] bg-white">
+      <div class="text-center text-LightGrayishBlue mb-12">
+        Annually Monthly
+      </div>
+      <main class="flex min-h-[550px]">
+        <div
+          class="basic text-center p-4 min-w-[320px] bg-white mb-6 rounded-xl max-h-[470px] self-center"
+        >
           <h2>Basic</h2>
           <p class="hidden">&dollar;19.99</p>
-          <p class="text-4xl m-6">&dollar;199.99</p>
+          <p class="text-4xl m-6">
+            <span class="text-2xl">&dollar;</span>199.99
+          </p>
           <p class="p-4 border-b-2 m-4 border-t-2 text-DarkGrayishBlue">
             500 GB Storage
           </p>
@@ -55,36 +61,43 @@
             Send up to 3 GB
           </p>
           <button
-            class="rounded-lg bg-gradient-to-r from-gradientLight to-gradientDark p-4 w-full text-white uppercase tracking-[2px] mt-4"
+            class="rounded-lg bg-gradient-to-r from-gradientLight to-gradientDark p-4 w-full text-white uppercase tracking-[2px] my-6 hover:text-gradientDark hover:bg-[#fff] hover:bg-none hover:border-[#6b6b6b] hover:border-[1px]"
           >
             Learn More
           </button>
         </div>
 
         <!-- SECOND PRICE DIV HERE --------------------------------------- -->
-        <div class="basic text-center border p-4 min-w-[340px] bg-white">
-          <h2>Professional</h2>
+        <div
+          class="basic text-center text-white p-4 min-w-[320px] bg-gradient-to-r from-gradientLight to-gradientDark mb-6 rounded-xl min-h-[500px] self-center"
+        >
+          <h2 class="mt-8">Professional</h2>
           <p class="hidden">&dollar;24.99</p>
-          <p class="text-4xl m-6">&dollar;249.99</p>
-          <p class="p-4 border-b-2 m-4 border-t-2 text-DarkGrayishBlue">
+          <p class="text-4xl m-6">
+            <span class="text-2xl">&dollar;</span>249.99
+          </p>
+          <p
+            class="p-4 border-b-[1px] m-4 border-t-[1px] border-color border-color-top"
+          >
             1 TB Storage
           </p>
-          <p class="pb-4 border-b-2 m-4 text-DarkGrayishBlue">
-            5 Users Allowed
-          </p>
-          <p class="pb-4 border-b-2 m-4 text-DarkGrayishBlue">
-            Send up to 10 GB
-          </p>
+          <p class="pb-4 border-b-[1px] m-4 border-color">5 Users Allowed</p>
+          <p class="pb-4 border-b-[1px] m-4 border-color">Send up to 10 GB</p>
           <button
-            class="rounded-lg bg-gradient-to-r from-gradientLight to-gradientDark p-4 w-full text-white uppercase tracking-[2px] mt-4"
+            class="rounded-lg bg-white p-4 w-full text-gradientDark uppercase tracking-[2px] my-6 hover:text-white hover:bg-gradientDark hover:bg-none hover:border-[#fff] hover:border-[1px]"
           >
             Learn More
           </button>
         </div>
-        <div class="basic text-center border p-4 min-w-[320px] bg-white mb-4">
+        <!-- Third div here  --------------------------- -->
+        <div
+          class="basic text-center p-4 min-w-[320px] bg-white mb-6 rounded-xl max-h-[470px] self-center"
+        >
           <h2>master</h2>
           <p class="hidden">&dollar;39.99</p>
-          <p class="text-4xl m-6">&dollar;399.99</p>
+          <p class="text-4xl m-6">
+            <span class="text-2xl">&dollar;</span>399.99
+          </p>
           <p class="p-4 border-b-2 m-4 border-t-2 text-DarkGrayishBlue">
             2 TB Storage
           </p>
@@ -95,7 +108,7 @@
             Send up to 20 GB
           </p>
           <button
-            class="rounded-lg bg-gradient-to-r from-gradientLight to-gradientDark p-4 w-full text-white uppercase tracking-[2px] mt-4"
+            class="rounded-lg bg-gradient-to-r from-gradientLight to-gradientDark p-4 w-full text-white uppercase tracking-[2px] my-6 hover:text-gradientDark hover:bg-[#fff] hover:bg-none hover:border-[#6b6b6b] hover:border-[1px]"
           >
             Learn More
           </button>
